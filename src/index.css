@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #212529;
+    --card: #ffffff;
+    --card-foreground: #212529;
+    --popover: #ffffff;
+    --popover-foreground: #212529;
+    --primary: #088178;
+    --primary-foreground: #ffffff;
+    --primary-dark: #005249;
+    --primary-light: #0da095;
+    --primary-subtle: #e6f6f4;
+    --secondary: #3366ff;
+    --secondary-foreground: #ffffff;
+    --muted: #f4f6f8;
+    --muted-foreground: #637381;
+    --accent: #f9fafb;
+    --accent-foreground: #212529;
+    --destructive: #cb0233;
+    --destructive-foreground: #ffffff;
+    --warning: #ffab00;
+    --warning-foreground: #212b36;
+    --success: #00a76f;
+    --success-light: #e8f9f0;
+    --border: #dfe3e8;
+    --input: #dfe3e8;
+    --ring: #088178;
+    --chart-1: #826af9;
+    --chart-2: #2d99ff;
+    --chart-3: #2cd9c5;
+    --chart-4: #ffe700;
+    --chart-5: #ff6c40;
+    --radius: 0.625rem;
+    font-family: 'DM Sans', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+body {
+  background-color: #f8fafc;
+  color: #212529;
+  font-family: 'DM Sans', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbars matching Sellzy */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #94a3b8;
+}

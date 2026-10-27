@@ -1,0 +1,6 @@
+{
+  "name": "Sellzy - Modern E-Commerce Marketplace",
+  "description": "Multi-vendor e-commerce marketplace platform featuring healthcare, beauty, and grocery products, smart search, product comparison, wishlist, and seamless cart & checkout experiences.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
